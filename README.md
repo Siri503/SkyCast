@@ -40,4 +40,8 @@ To run this project locally, you'll need to have the following installed:
 4. Start the development server:
    npm run dev
 5. Open your browser and go to **http://localhost:3000** to view the application.
+![image](https://github.com/user-attachments/assets/de7a96ad-b792-4f30-b399-f78e9f01ee82)
+![image](https://github.com/user-attachments/assets/70c779f8-5e28-42cf-aa4f-85a77748a505)
+
+
 
