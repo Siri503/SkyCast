@@ -33,3 +33,13 @@ To run this project locally, you'll need to have the following installed:
 
    ```bash
    git clone https://github.com/Siri503/SkyCast.git
+2. Navigate to the project directory:
+   cd SkyCast
+3. Install the dependencies:
+   npm install
+4. Start the development server:
+   npm run dev
+5. Open your browser and go to **http://localhost:3000** to view the application.
+**##Live Demo**
+You can view the live version of SkyCast here:[ ](https://skycast-6afv.onrender.com/)
+
