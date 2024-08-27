@@ -40,6 +40,4 @@ To run this project locally, you'll need to have the following installed:
 4. Start the development server:
    npm run dev
 5. Open your browser and go to **http://localhost:3000** to view the application.
-**##Live Demo**
-You can view the live version of SkyCast:[ ](https://skycast-6afv.onrender.com/)
 
