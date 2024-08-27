@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(135deg, #141e30, #243b55);
+  background: rgba(245, 228, 210, 0.1); /* Peach tint with transparency */
   color: #c06969;
   display: flex;
   justify-content: center;
@@ -8,21 +8,23 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
+  backdrop-filter: blur(10px); /* Blur effect for glassmorphism */
   animation: backgroundAnimation 10s ease infinite;
 }
 
 @keyframes backgroundAnimation {
-  0% { background: linear-gradient(135deg, #d5d0ea, #243b55); }
-  50% { background: linear-gradient(135deg, #355c7d, #c8a4e8); }
-  100% { background: linear-gradient(135deg, #396ed0, #6ba3e2); }
+  0% { background: rgba(245, 228, 210, 0.1); }
+  50% { background: rgba(249, 198, 167, 0.1); }
+  100% { background: rgba(247, 183, 163, 0.1); }
 }
 
 .SkyCast {
   place-self: center;
   padding: 40px;
   border-radius: 15px;
-  background-color: #4482bf;
-  background-clip: padding-box;
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent white for glass effect */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px); /* Blur effect for glassmorphism */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,11 +59,11 @@ body {
 }
 
 .notification.success {
-  background-color: #4caf50;
+  background: rgba(244, 162, 97, 0.9); /* Peach color with slight transparency */
 }
 
 .notification.error {
-  background-color: #f44336;
+  background: rgba(231, 111, 81, 0.9); /* Darker peach with transparency */
 }
 
 @keyframes slide-down {
@@ -98,7 +100,7 @@ body {
   border-radius: 40px;
   padding-left: 25px;
   color: #444;
-  background: #ebfffc;
+  background: rgba(255, 255, 255, 0.5); /* Slightly transparent background */
   font-size: 18px;
   width: 100%;
   box-sizing: border-box;
@@ -113,7 +115,7 @@ body {
   width: 50px;
   padding: 15px;
   border-radius: 50%;
-  background: #ebfffc;
+  background: rgba(255, 255, 255, 0.5); /* Slightly transparent background */
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -123,7 +125,7 @@ body {
 }
 
 .weather-card {
-  background: #14406b;
+  background: rgba(20, 64, 107, 0.7); /* Semi-transparent background */
   border-radius: 15px;
   padding: 30px;
   width: 100%;
@@ -170,3 +172,4 @@ body {
 .location {
   color: #ecf0f1;
 }
+
